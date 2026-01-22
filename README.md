@@ -22,17 +22,10 @@ A ChatGPT-style AI chatbot built with Laravel, featuring multiple chat sessions,
 
 ## Screenshots
 
-### Register
-![Register UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/register.png)
-
-### Login
-![Login UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/login.png)
-
-### Dashboard
-![Dashboard UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard.png)
-
-### Chat Interface
-![Chat UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard_2.png)
+![Register Ui](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/register.png)
+![Login Ui](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/login.png)
+![Dashboard Ui](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard.png)
+![Chat Ui](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard_2.png)
 
 ## Installation
 ```bash
