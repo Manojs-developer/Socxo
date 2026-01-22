@@ -1,0 +1,1 @@
+<img src="https://socxo.com/wp-content/themes/socxo-custom/assets/images/socxo/socxo.png" alt="logo" width="100%" style="max-width: 160px;">
