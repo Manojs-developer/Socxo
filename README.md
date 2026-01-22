@@ -1,30 +1,18 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Socxo AI Chatbot
 
+A ChatGPT-style AI chatbot built with Laravel, featuring multiple chat sessions, sidebar chat history, and token limit enforcement.
 
+## Features
 
-
-# Socxo AI Chatbot 
-
-A ChatGPT-style AI chatbot built with Laravel, featuring:
-- Multiple chat sessions
-- Sidebar chat history
-- New chat creation
-- Token limit per chat (20,000)
-- Clean UI similar to ChatGPT
-
----
-
-##  Features
 - User authentication
 - Sidebar with previous chats
 - Resume previous conversations
 - New Chat button
-- Token limit enforcement per chat
+- Token limit enforcement per chat (20,000 tokens)
 - OpenAI integration
 
----
+## Tech Stack
 
-##  Tech Stack
 - Laravel 12
 - PHP 8.2
 - MySQL
@@ -32,15 +20,21 @@ A ChatGPT-style AI chatbot built with Laravel, featuring:
 - jQuery
 - OpenAI API
 
----
+## Screenshots
 
-![Register Ui](screenshots/register.png)
-![Login Ui](screenshots/login.png)
-![Dashboard Ui](screenshots/dashboard.png)
-![Chat Ui](screenshots/dashboard_2.png)
+### Register
+![Register UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/register.png)
 
-##  Installation Steps
+### Login
+![Login UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/login.png)
 
+### Dashboard
+![Dashboard UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard.png)
+
+### Chat Interface
+![Chat UI](https://raw.githubusercontent.com/Manojs-developer/Socxo/main/screenshots/dashboard_2.png)
+
+## Installation
 ```bash
 git clone https://github.com/Manojs-developer/Socxo.git
 cd Socxo
@@ -49,6 +43,12 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-
 npm run dev
+```
 
+## Configuration
+
+Add your OpenAI API key to `.env`:
+```
+OPENAI_API_KEY=your_api_key_here
+```
