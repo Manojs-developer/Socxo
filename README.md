@@ -27,10 +27,7 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 **Authentication**: Laravel Breeze
 **AI Model**: OpenAI `gpt-3.5-turbo`
 
----
-> *(Add screenshots here in your GitHub repository)*
 
----
 
 ##  Installation & Setup
 
