@@ -1,10 +1,10 @@
-# 🤖 Socxo AI Chatbot
+# Socxo AI Chatbox
 
 An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuring secure user authentication, multiple chat sessions, sidebar chat history, and token limit enforcement.
 
 ---
 
-## ✨ Features
+## Features
 
 * ✅ User Authentication (Laravel Breeze)
 * ✅ Register & Login UI
@@ -19,7 +19,7 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend**: Laravel 12, PHP 8.2
 **Frontend**: Blade, Bootstrap 5, jQuery
@@ -28,19 +28,11 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 **AI Model**: OpenAI `gpt-3.5-turbo`
 
 ---
-
-## 📸 UI Screenshots
-
-* Register UI
-* Login UI
-* Dashboard UI
-* Chat Interface
-
 > *(Add screenshots here in your GitHub repository)*
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -109,7 +101,7 @@ Visit: **[http://localhost:8000](http://localhost:8000)**
 
 ---
 
-## ⚠️ Why Node.js and npm Are Used
+##  Why Node.js and npm Are Used
 
 Although this project is built using **Laravel (PHP)**, **Node.js** and **npm** are required only for frontend asset management — not for backend development.
 
@@ -137,7 +129,7 @@ npm run build    # Build assets for production
 
 ---
 
-## 🔐 Authentication (Laravel Breeze)
+##  Authentication (Laravel Breeze)
 
 This project uses **Laravel Breeze** for authentication.
 
@@ -150,7 +142,7 @@ Included features:
 
 ---
 
-## 💬 Chat System Architecture
+##  Chat System Architecture
 
 * Each conversation has a unique `chat_session_id`
 * Messages are stored in the `messages` table
@@ -159,7 +151,7 @@ Included features:
 
 ---
 
-## 🤖 OpenAI Integration
+##  OpenAI Integration
 
 * **API Endpoint**: `/v1/chat/completions`
 * **Model Used**: `gpt-3.5-turbo`
@@ -167,7 +159,7 @@ Included features:
 
 ---
 
-## 📊 Token Limit Enforcement
+##  Token Limit Enforcement
 
 * Maximum **20,000 tokens per chat**
 * Tokens calculated based on message length
@@ -175,28 +167,3 @@ Included features:
 
 ---
 
-## 📝 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
----
-
-## 👨‍💻 Author
-
-**Manoj S**
-GitHub: [@Manojs-developer](https://github.com/Manojs-developer)
-
----
-
-## 🙏 Acknowledgments
-
-* Laravel Framework
-* OpenAI API
-* Bootstrap
-* jQuery
