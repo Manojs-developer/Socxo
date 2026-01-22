@@ -6,16 +6,16 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 
 ## Features
 
-* ✅ User Authentication (Laravel Breeze)
-* ✅ Register & Login UI
-* ✅ Dashboard UI
-* ✅ ChatGPT-style Chat Interface
-* ✅ Multiple Chat Sessions
-* ✅ Sidebar Chat History
-* ✅ Resume Previous Conversations
-* ✅ New Chat Creation
-* ✅ Token Limit Enforcement (20,000 tokens per chat)
-* ✅ Secure OpenAI API Integration
+* User Authentication (Laravel Breeze)
+* Register & Login UI
+* Dashboard UI
+* ChatGPT-style Chat Interface
+* Multiple Chat Sessions
+* Sidebar Chat History
+* Resume Previous Conversations
+* New Chat Creation
+* Token Limit Enforcement (20,000 tokens per chat)
+* Secure OpenAI API Integration
 
 ---
 
