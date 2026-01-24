@@ -357,8 +357,8 @@
                                 <button class="action-btn" title="Dislike">
                                     <i class="bi bi-hand-thumbs-down"></i>
                                 </button>
-                                <button class="action-btn" title="Share">
-                                    <i class="bi bi-share"></i>
+                                <button class="action-btn" title="flag">
+                                    <i class="bi bi-flag"></i>
                                 </button>
                             </div>
                         </div>
