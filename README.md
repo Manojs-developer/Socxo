@@ -17,7 +17,7 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 * Token Limit Enforcement (20,000 tokens per chat)
 * Secure OpenAI API Integration
 
-## Tech Stack
+---
 
 ## Tech Stack
 
@@ -163,9 +163,3 @@ Included features:
 * User is prompted to start a new chat once the limit is reached
 
 ---
-
-
-Add your OpenAI API key to `.env`:
-```
-OPENAI_API_KEY=your_api_key_here
-```
