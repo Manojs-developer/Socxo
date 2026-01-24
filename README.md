@@ -28,7 +28,6 @@ An AI-powered chatbot built using **Laravel 12** and the **OpenAI API**, featuri
 **AI Model**: OpenAI `gpt-3.5-turbo`
 
 
-
 ##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -56,75 +55,30 @@ Update database credentials in `.env`:
 DB_DATABASE=chatbox_db
 DB_USERNAME=root
 DB_PASSWORD=
-```
 
-Add your OpenAI API key:
+`Add your OpenAI API key:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 ```
+``
+### 3️⃣ Connect Database
+
+Open phpMyAdmin
+Create a database
+Import the SQL file shared in Google Drive
+
 
 ### 4️⃣ Generate Application Key
 
 ```bash
 php artisan key:generate
 ```
-
-### 5️⃣ Run Database Migrations
-
-```bash
-php artisan migrate
-```
-
-### 6️⃣ Install Frontend Dependencies
-
-```bash
-npm install
-```
-
-### 7️⃣ Build Frontend Assets
-
-```bash
-npm run dev
-```
-
-### 8️⃣ Start the Development Server
-
 ```bash
 php artisan serve
 ```
 
 Visit: **[http://localhost:8000](http://localhost:8000)**
-
----
-
-##  Why Node.js and npm Are Used
-
-Although this project is built using **Laravel (PHP)**, **Node.js** and **npm** are required only for frontend asset management — not for backend development.
-
-Laravel uses **Vite** as a modern build tool to compile and bundle frontend assets such as:
-
-* CSS files
-* JavaScript files
-* Bootstrap styles
-* jQuery scripts
-
-### Key Points
-
-* Node.js is required to run Vite
-* npm is used to install frontend dependencies
-* No backend logic is written in Node.js
-* All core functionality (authentication, database, chat logic, OpenAI integration) is implemented in Laravel (PHP)
-
-### Usage in This Project
-
-```bash
-npm install      # Install frontend dependencies
-npm run dev      # Compile assets for development
-npm run build    # Build assets for production
-```
-
----
 
 ##  Authentication (Laravel Breeze)
 
