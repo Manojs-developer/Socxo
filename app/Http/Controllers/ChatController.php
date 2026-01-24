@@ -15,7 +15,6 @@ class ChatController extends Controller
     {
 
         $userId = auth()->id();
-        //   Handle Active Chat Session
 
         if ($request->has('chat')) {
             session(['chat_session_id' => $request->chat]);
@@ -27,8 +26,7 @@ class ChatController extends Controller
 
         $activeChat = session('chat_session_id');
         
-        //  Sidebar Chat List, Ordered by latest activity
-           
+        //  Sidebar Chat List, Ordered by latest activity   
         $chatList = Message::select(
             'messages.chat_session_id',
             'messages.message',
@@ -156,5 +154,6 @@ class ChatController extends Controller
     //     }
 
     //     return session('chat_session_id');
+    
     // }
 }
